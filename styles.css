@@ -1,0 +1,50 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe0f7; /* Light pink background */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    color: #ff007f; /* Pink */
+    font-size: 56px;
+    margin-bottom: 38px;
+}
+
+p {
+    color: #8a004f; /* Darker pink */
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff007f; /* Pink */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d6006d; /* Darker pink on hover */
+}
+
+/* Hide gif container by default */
+.hidden {
+    display: none;
+}
+
